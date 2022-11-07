@@ -4,7 +4,7 @@
     <profile name="Maven 1" modules="ScalaHomeWork1">
       <parameters>
         <parameter value="-dependencyfile" />
-        <parameter value="C:\Users\lvv\IdeaProjects\ScalaHomeWork1\target/.scala_dependencies" />
+        <parameter value="C:\Users\litvi\IdeaProjects\ScalaHomeWork1\target/.scala_dependencies" />
       </parameters>
     </profile>
   </component>

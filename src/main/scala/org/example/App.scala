@@ -30,9 +30,23 @@ object App {
     val commonSalary = firstList.sum
     val countPerson = firstList.size
     val midSalary = commonSalary / countPerson
-    //var result_midsalary = firstList * midSalary
-    //print(firstList.at)
+        var i = 0
+    var printRez = 0
+    //while (i < countPerson) {
+      //printRez = 100 - (firstList(i) * 100 / midSalary)
+      //println(s"отклонение от средней з.п. = $printRez %")
+      //i = i + 1
 
-
+    //}
+    //                  Задание 3d
+    val secondList = firstList :+ 150
+    //val maxSalary = secondList.max
+    //val minSalary = secondList.min
+    //println(s"Максимальная з.п.:$maxSalary")
+    //println(s"Минимальная з.п.: $minSalary")
+    //                  Задание 3e
+    //val thirdList = secondList :+ 350 :+ 90
+    //    println(thirdList.sorted)
+    //                  Задание 3f
   }
 }
