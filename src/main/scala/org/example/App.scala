@@ -1,8 +1,5 @@
 package org.example
 
-/**
- * @author ${user.name}
- */
 object App {
   
 
@@ -29,10 +26,12 @@ object App {
     //val result_salary = (year_salary * bonus + lunch) * 0.87
     //print(s"Годовой доход: $result_salary")
     //            Задание 3c
-
-
-
-
+    val firstList = List(100, 150, 200, 80, 120, 75)
+    val commonSalary = firstList.sum
+    val countPerson = firstList.size
+    val midSalary = commonSalary / countPerson
+    //var result_midsalary = firstList * midSalary
+    //print(firstList.at)
 
 
   }
